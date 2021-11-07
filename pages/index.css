@@ -1,6 +1,13 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
-
+@import url(../blocks/header/header.css);
+@import url(../blocks/lead/lead.css);
 
 /* todo ниже весь ЦСС код */
+
+/* todo HEADER MAIN FOOTER */
+
+.page {
+  background: #2A2C2F;
+}
