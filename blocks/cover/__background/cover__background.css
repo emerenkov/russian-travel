@@ -1,0 +1,12 @@
+.cover__background {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding-bottom: 62.5%;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  transition-duration: .6s;
+  z-index: 2;
+}

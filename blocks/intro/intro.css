@@ -7,36 +7,20 @@
   box-sizing: border-box;
 }
 
-.intro__title {
-  margin: 0;
-  padding: 0;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 107%;
-  color: #FFFFFF;
+@media screen and (max-width: 1279px) {
+  .intro {
+    padding: 92px 48px;
+  }
 }
 
-.intro__text {
-  margin: 0;
-  padding: 40px 0 0;
-  max-width: 690px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 163%;
-  color: #FFFFFF;
+@media screen and (max-width: 1023px) {
+  .intro {
+    padding: 88px 24px;
+  }
 }
 
-.intro__list {
-  margin: 0;
-  padding: 33px 0 0;
-  list-style: none;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 150%;
-  color: #FFFFFF;
+@media screen and (max-width: 767px) {
+  .intro {
+    padding: 64px 16px;
+  }
 }
-
-
