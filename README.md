@@ -15,3 +15,4 @@
 2. Сайт имеет 4 стандарта под монитор.
 3. Состоит из 7 секций.
 4. Сайт тянетсяю
+   **https://harwuk-cedbyk-8qysze.github.io/russian-travel/**
