@@ -1,7 +1,6 @@
 .page {
   min-width: 320px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
+  /* выше установлена минимальная ширина страницы */
   max-width: 100%;
   /* выше установили ограничение по максимальной ширине */
   margin: 0;
@@ -9,8 +8,7 @@
   flex-direction: column;
   align-items: center;
   padding: 0;
-  box-sizing:border-box;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
+  box-sizing: border-box;
   font-family: 'Inter', 'Arial', sans-serif;
   background: #2A2C2F;
   -moz-osx-font-smoothing: grayscale;
@@ -18,5 +16,4 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  /* z-index: 1; */
 }

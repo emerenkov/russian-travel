@@ -1,35 +1,11 @@
 .lead {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0 100px;
-  max-width: 1280px;
-  min-width: 320px;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 984px;
+  min-width: 288px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: #2A2C2F;
 }
-
-@media screen and (max-width: 1279px) {
-  .lead {
-    padding: 0 48px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .lead {
-    padding: 0;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-

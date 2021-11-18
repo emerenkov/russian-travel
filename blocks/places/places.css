@@ -1,7 +1,7 @@
 .places {
-  margin: 0;
-  padding: 92px 100px 12px;
-  max-width: 1280px;
+  margin: 0 auto;
+  padding: 92px 0 12px;
+  max-width: 984px;
   min-width: 288px;
   width: 100%;
   box-sizing: border-box;
@@ -9,18 +9,21 @@
 
 @media screen and (max-width: 1279px) {
   .places {
-    padding: 92px 48px 12px;
+    padding: 92px 0 12px;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .places {
-    padding: 88px 24px 17px;
+    padding: 88px 0 17px;
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .places {
     padding: 64px 0 16px;
+    max-width: 320px;
   }
 }
